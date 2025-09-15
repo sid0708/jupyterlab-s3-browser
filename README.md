@@ -1,3 +1,10 @@
+
+# Important Note: 
+
+This project is forked and support for minio is added to browse, download, edit files directly from the jupyterhub.
+Download for files over 50MB is not possible over browser, please directly download the files using the minio API or the 
+UI console. Files that are larger than 12MB should not ideally be edited via the browser.
+
 # jupyterlab-s3-browser [![Build Status](https://travis-ci.org/IBM/jupyterlab-s3-browser.svg?branch=master)](https://travis-ci.org/IBM/jupyterlab-s3-browser)
 
 [![npm version](https://badge.fury.io/js/jupyterlab-s3-browser.svg)](https://badge.fury.io/js/jupyterlab-s3-browser) [![PyPI version](https://badge.fury.io/py/jupyterlab-s3-browser.svg)](https://badge.fury.io/py/jupyterlab-s3-browser)
